@@ -5,7 +5,6 @@ public abstract class Animal {
     private int age;
     private String colour;
     private String gender;
-    private String nickName;
 
 
     public Animal(int weight, int age, String colour, String gender) {
@@ -13,7 +12,6 @@ public abstract class Animal {
         this.age = age;
         this.colour = colour;
         this.gender = gender;
-        this.nickName = nickName;
     }
     public Animal() {
     }
@@ -31,9 +29,6 @@ public abstract class Animal {
     public void setGender(String gender) {
         this.gender = gender;
     }
-    public void setNickName(String nickName) {
-        this.nickName = nickName;
-    }
 
 
     public int getWeight() {
@@ -47,9 +42,6 @@ public abstract class Animal {
     }
     public String getGender() {
         return gender;
-    }
-    public String getNickName() {
-        return nickName;
     }
 
 }
